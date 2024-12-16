@@ -1,0 +1,81 @@
+/* SignIn.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+html, body {
+    height: 100%; /* Ensure the body and html cover full screen */
+    font-family: Arial, sans-serif;
+    overflow: hidden; /* Prevent scrolling */
+}
+  
+.signin-page {
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center;     /* Centers vertically */
+    height: 100vh;           /* Full viewport height */
+    width: 100vw;            /* Full viewport width */
+    background: linear-gradient(to right, #661647, #415325); /* Full background gradient */
+    position: absolute;      /* Absolute positioning */
+    top: 0;
+    left: 0;
+}
+  
+.signin-container {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+  
+.signin-title {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: #333;
+}
+  
+.input-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.2rem;
+    text-align: left;
+}
+  
+.input-group label {
+    margin-bottom: 0.5rem;
+    color: #555;
+    font-weight: bold;
+}
+  
+.input-group input {
+    padding: 0.8rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    outline: none;
+    transition: border-color 0.3s;
+}
+  
+.input-group input:focus {
+    border-color: #1e90ff;
+}
+  
+.signin-button {
+    background: #1e90ff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 0.8rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+  
+.signin-button:hover {
+    background: #155bb5;
+}
